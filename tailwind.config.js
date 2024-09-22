@@ -11,6 +11,9 @@ module.exports = {
       boxShadow: {
         lg: "3px 3px 0 rgba(0, 111, 232, 100)",
       },
+      fontFamily: {
+        Poppins: ["Poppins", "sans"],
+      },
     },
   },
   plugins: [],

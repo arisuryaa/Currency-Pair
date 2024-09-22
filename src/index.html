@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   </head>
-  <body class="bg-third">
+  <body class="bg-third font-Poppins">
     <div class="flex items-center justify-center h-[40vh] pb-8 bg-primary shadow-2xl">
       <h1 class="text-3xl font-semibold text-white">Exchange Rate Conversion</h1>
     </div>
@@ -40,10 +43,29 @@
             <button class="px-8 py-2 font-semibold text-white rounded-md bg-secondary" id="convert">Convert</button>
           </div>
         </div>
-        <div class="" id="tanggal"></div>
+        <div class="w-full" id="tanggal"></div>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-center mt-10 bg-primary">
+      <div class="flex items-center justify-between gap-5 py-8">
+        <a href="">
+          <i class="px-3 py-2 text-xl text-white transition-all border border-white rounded-full hover:bg-white hover:text-black fa-brands fa-github"></i>
+        </a>
+        <a href="">
+          <i class="px-3 py-2 text-xl text-white border border-white rounded-full hover:bg-white hover:text-black fa-brands fa-youtube"></i>
+        </a>
+        <h1 class="text-2xl text-white">Dekomz</h1>
+        <a href="">
+          <i class="px-3 py-2 text-xl text-white border border-white rounded-full hover:bg-white hover:text-black fa-brands fa-square-x-twitter"></i>
+        </a>
+        <a href="">
+          <i class="px-3 py-2 text-xl text-white border border-white rounded-full hover:bg-white hover:text-black fa-brands fa-instagram"></i>
+        </a>
       </div>
     </div>
 
     <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/676adc8891.js" crossorigin="anonymous"></script>
   </body>
 </html>
